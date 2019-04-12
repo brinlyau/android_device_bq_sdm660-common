@@ -67,11 +67,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # CABL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.cabl=2 \
-    config.cabl.xml=1 \
-    config.cabl.path=/vendor/etc \
-    config.cabl.xml.print=1 \
-    debug.cabl.logs=2 \
-    ro.qcom.dpps.panelbased.config=1
+    vendor.display.cabl.config=1 \
+    vendor.display.cabl.config_path=/vendor/etc/CABLConfig.xml
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
