@@ -134,13 +134,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.sensors.cmc=false \
     ro.vendor.sensors.dev_ori=true \
-    ro.qti.sensors.dpc=true \
-    ro.qti.sensors.iod=true \
-    ro.vendor.sensors.pmd=true \
+    ro.vendor.sensors.facing=false \
     ro.vendor.sensors.mot_detect=true \
-    ro.qti.sensors.multishake=true \
-    ro.vendor.sensors.sta_detect=true
+    ro.vendor.sensors.pmd=true \
+    ro.vendor.sensors.sta_detect=true \
+    ro.vendor.sdk.sensors.gestures=false
 
 # Time daemon
 PRODUCT_PROPERTY_OVERRIDES += \
